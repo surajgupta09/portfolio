@@ -1,0 +1,32 @@
+.contactUS{
+    background-image: url('../images/contactUs.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+input{
+    background-image: url('../images/contactUs.jpg');
+    background-size:cover;
+    background-size: 10000% 10000%;
+}
+::placeholder{
+    color: black;
+}
+.input-form{
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.input-form-height{
+    height: 100px;
+}
+.footer{
+    background-image: url('../images/contactUs.jpg');
+    background-size:cover;
+    background-size: 1000% 1000%;
+}
+.navCustom{
+    background-image: url('../images/contactUs.jpg');
+    background-size:cover;
+    background-size: 100% 100%;
+}

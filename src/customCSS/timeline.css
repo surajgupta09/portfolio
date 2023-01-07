@@ -1,0 +1,32 @@
+.fontSize-small{
+    font-size:10px;
+}
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 3%;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    padding-left: 2%;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    left: 2.2%;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
