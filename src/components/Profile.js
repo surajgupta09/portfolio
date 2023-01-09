@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../images/profileImg.jpg';
+import profileImage from '../images/profileImg.png';
 import {BsGithub, BsLinkedin, BsInstagram} from 'react-icons/bs';
 import '../customCSS/profile.css';
 const Profile = () => {
@@ -11,28 +11,28 @@ const Profile = () => {
             </div>
             <div className="text-light col-lg-6">
                 <div className="card-body">
-                    <div className="card-title text-start">
+                    <div className="card-title text-dark text-center">
                         <p className='fs-1 fw-bold'>Suraj</p>
-                        <p className='fs-6'>Software Devloper, Full-Stack Developer</p>
+                        <p className='fs-5'>Software Devloper, Full-Stack Developer</p>
                     </div>
                     <div className='card-text text-start fs-6'>
                     <table className="row table table-borderless">
                     <tbody className='col-md-8 '>
                         <tr>
-	                    <td className='text-white-50 fw-bold'>Age :</td>
-                        <td className='text-light'>25 yrs</td>
+	                    <td className='fw-bold'>Age :</td>
+                        <td className=''>25 yrs</td>
                         </tr>
                         <tr>
-                        <td className='text-white-50 fw-bold'>Phone :</td>
-                        <td className='text-light'>(+91) 9718141832</td>
+                        <td className='fw-bold'>Phone :</td>
+                        <td className=''>(+91) 9718141832</td>
                         </tr>
                         <tr>
-                         <td className='text-white-50 fw-bold'>Email :</td>
-                        <td className='text-light'>suraj09.cs@gmail.com</td>
+                         <td className='fw-bold'>Email :</td>
+                        <td className=''>suraj09.cs@gmail.com</td>
                         </tr>
                         <tr>
-                        <td className='text-white-50 fw-bold'>Address :</td>
-                        <td className='text-light'>New Delhi, India - 110030</td>
+                        <td className='fw-bold'>Address :</td>
+                        <td className=''>New Delhi, India - 110030</td>
                         </tr>
                     </tbody>
                     </table>

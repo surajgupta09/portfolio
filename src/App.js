@@ -1,14 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Education from './components/Education';
-import Header from './components/Header';
 import Intro from './components/Intro';
 import Profile from './components/Profile';
 import Project from './components/Project';
 import Work from './components/Work';
 import GetInTouch from './components/GetInTouch';
+import Header from './components/Header';
+import './index.css';
 const App = () => {
   return (
-    <div>   
+    <div className="customBackgroundColor container-fluid">   
       <Header />
       <div className="container">
         <Profile />

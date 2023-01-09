@@ -1,9 +1,6 @@
 .profileBg{
-    background-image: url('../images/profileBg.jpg');
+    background-color: #DCD6F7;
     height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: 100% 100%;
 }
 .profileBtn:hover{
     transform: scale(1.5);
